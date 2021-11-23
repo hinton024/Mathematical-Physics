@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[106]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -170,69 +164,3 @@ if __name__ == "__main__":
     q3_b(0,10,1e3,1e-6)
     q3_c(0,10,10,0.2,200)
    
-   
-
-
-# In[103]:
-
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[104]:
-
-
-
-   
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# \delta
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

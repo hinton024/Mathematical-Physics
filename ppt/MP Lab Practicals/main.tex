@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage{multirow}
 \hypersetup{
     colorlinks,
     citecolor=black,
@@ -64,12 +65,11 @@
 \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal line
 \rule{\textwidth}{1.6pt}\\[2\baselineskip] % Thick horizontal line
 
-
-
-
 \textbf{\Large \\[\baselineskip] SGTB Khalsa College, University of Delhi}\\[\baselineskip]
 \textbf{\Large Preetpal Singh(2020PHY1140)}\\[\baselineskip] 
 
+\vspace*{\baselineskip}
+\textbf{\Large University Roll No: 20068567043}\\[\baselineskip] 
 \vspace*{\baselineskip}
 \textbf{\Large Unique Paper Code: 32221301}\\[\baselineskip] 
 \vspace*{\baselineskip}
@@ -85,7 +85,19 @@
 \maketitle
   
 \tableofcontents
-
+\begin{table}[]
+\begin{tabular}{lrrll}
+\textbf{Practical}                                                              & \multicolumn{1}{l}{\textbf{Submission}} & \multicolumn{1}{l}{\textbf{Page No.}} &  &  \\
+Trapezoidal and Simpson Method                                         & Sep 20, 2021                           & 4                            &  &  \\
+Legendre Polynomial                                                    & Sep 21, 2021                           & 9                            &  &  \\
+Lagrange Interpolation                                                 & Sep 27, 2021                           & 16                           &  &  \\
+Radioactive Decay, RC Circuit and Stokes Law by Euler, RK2, RK4 Method & Oct 16, 2021                           & 20                           &  &  \\
+2nd Order Coupled diffential equations using Euler, RK2, RK4 Method    & Oct 26, 2021                           & 28                           &  &  \\
+RK4 Method for Simulataneous Differential Equations                    & Nov 2, 2021                            & 34                           &  &  \\
+Gauss Elimination Method                                               & Nov 16, 2021                           & 39                           &  &  \\
+Gauss Seidel Method                                                    & Nov 22, 2021                           & 42                           &  & 
+\end{tabular}
+\end{table}
 \clearpage
 \begin{figure}[h]
     \centering
@@ -93,6 +105,11 @@
 \caption{Submission of all Practicals}
 \end{figure}
 \clearpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm,height=7cm \textwidth]{1.PNG}
+\caption{Trapezoidal and Simpson Method}
+\end{figure}
 \section{Trapezoidal and Simpson Method}
 %Importing code from file
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,6 +131,11 @@ caption=Trapezoidal and Simpson Method
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=16cm,height=10cm \textwidth]{2.PNG}
+\caption{Legendre}
+\end{figure}
 \section{Legendre Polynomial}
 \lstinputlisting[language=python, 
 caption=Legendre Polynomial
@@ -144,6 +166,11 @@ caption=Legendre Polynomial
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm,height=12cm \textwidth]{3.PNG}
+\caption{Lagrange Interpolation}
+\end{figure}
 \section{Lagrange Interpolation}
 \lstinputlisting[language=python, 
 caption=Lagrange Interpolation
@@ -158,6 +185,11 @@ caption=Lagrange Interpolation
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm,height=12cm \textwidth]{4.PNG}
+\caption{Radioactive Decay, RC Circuit and Stokes Law by Euler, RK2, RK4 Method}
+\end{figure}
 \section{Radioactive Decay, RC Circuit and Stokes Law by Euler, RK2, RK4 Method}
 \lstinputlisting[language=python, 
 caption=Radioactive Decay\text{,} RC Circuit and Stokes Law by Euler\text{,} RK2\text{,} and RK4 Method
@@ -183,6 +215,11 @@ caption=Radioactive Decay\text{,} RC Circuit and Stokes Law by Euler\text{,} RK2
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm,height=13cm \textwidth]{5.PNG}
+\caption{2nd Order Coupled diffential equations using Euler, RK2, RK4 Method}
+\end{figure}
 \section{2nd Order Coupled diffential equations using Euler, RK2, RK4 Method}
 \lstinputlisting[language=python, 
 caption=2nd Order coupled diffential equations using Euler\text{,} RK2 and RK4 Method
@@ -208,12 +245,18 @@ caption=2nd Order coupled diffential equations using Euler\text{,} RK2 and RK4 M
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm,height=12cm \textwidth]{6.PNG}
+\caption{RK4 Method}
+\end{figure}
 \section{RK4 Method for Simulataneous Differential Equations}
 \lstinputlisting[language=python, 
 caption=RK4 Method for Simulataneous Differential Equations
 ]{rk4/rk4.py}
 
 \newpage
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=14cm,height=12cm \textwidth]{rk4/Figure_1.png}
@@ -227,6 +270,11 @@ caption=RK4 Method for Simulataneous Differential Equations
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=14cm,height=5cm \textwidth]{7.PNG}
+\caption{Gauss Elimination Method Output}
+\end{figure}
 \section{Gauss Elimination Method}
 \lstinputlisting[language=python, 
 caption=Gauss Elimination
@@ -241,6 +289,11 @@ caption=Gauss Elimination
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=15cm,height=8cm \textwidth]{8.PNG}
+\caption{Gauss Seidel Method Output}
+\end{figure}
 \section{Gauss Seidel Method}
 \lstinputlisting[language=python, 
 caption=Gauss Seidel Method
